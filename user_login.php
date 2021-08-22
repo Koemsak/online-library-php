@@ -9,7 +9,7 @@
         session_start();
         $_SESSION['username'] = $_POST['username'];
         if($isValid) {
-            header("Location: http://localhost/online-library/?page=home");
+            header("Location: http://localhost/online-library-php/?page=home");
         } else {
             $messageError = "Incorrect password or username";
         }

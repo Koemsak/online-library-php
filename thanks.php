@@ -2,7 +2,7 @@
 
 <div class="container p-4">
     <div class="form-group row d-flex justify-content-between">
-        <a href="http://localhost/online-library/?page=contact" class="fa fa-arrow-left col-sm-2 btn btn-primary ml-3"> Go Back</a>
+        <a href="http://localhost/online-library-php/?page=contact" class="fa fa-arrow-left col-sm-2 btn btn-primary ml-3"> Go Back</a>
     </div>
 </div>
 <div class="container p-4 d-flex justify-content-center align-items-center flex-column">

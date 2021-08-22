@@ -8,7 +8,7 @@
 ?>
 
 <div class="container p-4">
-    <a href="http://localhost/online-library/?page=home" class="text-decoration-none btn btn-primary fa fa-arrow-left">  Go Back</a>
+    <a href="http://localhost/online-library-php/?page=home" class="text-decoration-none btn btn-primary fa fa-arrow-left">  Go Back</a>
 
     
     <?php foreach($books as $book): ?>

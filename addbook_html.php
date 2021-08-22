@@ -4,7 +4,7 @@
     <form action="addbook.php" method="POST" enctype="multipart/form-data">
         
         <div class="form-group row d-flex justify-content-between">
-            <a href="http://localhost/online-library/?page=bookinfo" class="fa fa-arrow-left col-sm-2 btn btn-secondary ml-3"> Go Back</a>
+            <a href="http://localhost/online-library-php/?page=bookinfo" class="fa fa-arrow-left col-sm-2 btn btn-secondary ml-3"> Go Back</a>
         </div>
         <hr class="bg-white mt-4">
         <div class="form-group row">

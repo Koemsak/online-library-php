@@ -50,7 +50,7 @@
         <?php endif; ?>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <a href="http://localhost/online-library/" class="btn btn-outline-secondary my-2 my-sm-0 m-2" type="submit">Logout</a>
+        <a href="http://localhost/online-library-php/" class="btn btn-outline-secondary my-2 my-sm-0 m-2" type="submit">Logout</a>
       </form>
     </div>
   </nav>

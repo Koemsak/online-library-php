@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 21, 2021 at 06:29 PM
+-- Generation Time: Aug 22, 2021 at 08:59 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.1
 
@@ -45,7 +45,6 @@ CREATE TABLE `books` (
 
 INSERT INTO `books` (`book_id`, `title`, `description`, `date`, `book_img`, `book_pdf`, `book_author`, `category_id`, `user_id`) VALUES
 (7, 'បេះដូងអ្នកដឹងនាំ', 'This is the book that talk about politic.', '2021-08-18 23:08:12', 'បេះដូងអ្នកដឹកនាំ.jpg', 'បេះដូងមេដឹកនាំ.pdf', 'N/A', 2, 1),
-(9, 'កិត្តិយសឬស្នេហា', 'រឿងនេះជាស្នាដៃនិពន្ធរបស់លោក ព្យែរ គ័រណី (Pierre Korneille)​ ឆ្នាំ១៦៣៧ ប្រែសម្រួលដោយ អាន ឃុន ឆ្នាំ១៩៥៤ និង ហង្ស​ ធុនហាក់ ឆ្នាំ១៩៦៩ មិនបានយកមកបញ្ខូលក្នុងកម្មវិធីសិក្សាទេ។ រឿងនេះដែរដកស្រង់ចេញពីសៀវភៅសិក្សា អត្ថបទអក្សរសិល្ប៍បរទេស របស់លោក គង់ សុខហេង ឆ្នាំ២០១២ ទំព័រ ១២៤ ដល់់១៣០។', '2021-08-19 14:22:51', 'កិត្តិយសឬស្នេហា-Pierre Korneille.jpg', 'កិត្តិយសឬស្នេហា.pdf', 'Pierre Corneille', 1, 1),
 (10, 'សូ ផាត', 'សុផាតគឺជាប្រលោមលោកមនោសញ្ចេតនាខ្មែរដំបូងបង្អស់ដែលនិពន្ធនៅឆ្នាំ ១៩៣៨ ដោយរីមគីនហើយត្រូវបានបោះពុម្ពផ្សាយនៅឆ្នាំ ១៩៤២ រួមជាមួយកុលាបប៉ៃលិននិងផាកសុផុនសុផាតត្រូវបានគេចាត់ទុកថាជាប្រលោមលោកបុរាណមួយក្នុងចំណោមប្រលោមលោកបុរាណទាំងបីរបស់អក្សរសិល្ប៍ខ្មែរ', '2021-08-19 14:25:10', 'Roeung-Sophat-រីម គីន.jpg', 'sophat.pdf', 'រីម គីន', 1, 1),
 (11, 'ព្រះអាទិត្យថ្មីរះលើដែនដីចាស់', 'ព្រះអាទិត្យថ្មីរះលើដែនដីចាស់  ជាអក្សរសិល្ប៍ខេមរនិយមឆ្លុះបញ្ចាំងពីសតិអារម្មណ៍របស់ប្រជារាស្រ្តក្រីក្រ\r\nដែលបាន ស្ថិតនៅក្នុងសៀវភៅប្រលោមលោក និពន្ធដោយលោក សួន សុរិន្ទ ហើយនៅឆ្នាំ ១៩៩៣, ៩៤ នឹង​ ទទួលឥទ្ធិពលពីរបបសង្គមរាស្រ្តនិយម ព្រោះដំណើររឿងបានបំផុសឲ្យប្រជារាស្រ្ត​ស្រឡាញ់ការងារពលកម្ម កសិកម្ម ហត្ថកម្ម នយោបាយទឹក តួយ៉ាងដូចជាតួអង្គសមជា​ដើម។', '2021-08-19 14:31:04', 'ព្រះអាទិត្យថ្មី-សួន សុរិន្.jpg', 'Preah-Atit-Reas-Leu-Den-Dey-Chas-7khmer.pdf', 'សួន សុរិន្ទ', 1, 1),
 (12, 'មាយើង', 'រឿង មាយើង ជារឿងនិទានបុរាណខ្មែរ ដែលបង្កប់នូវតម្លៃអប់រំ និងតួនាទីដ៏សំខាន់របស់ស្រ្តីភេទ។ ព្រេងនិទានមួយនេះត្រូវបានលោកមហាកវី គង្គ ប៊ុនឈឿន និង លោក យ៉ែម បូណ៌ផាន់ ប្រែសម្រួលឲ្យចេញជាផ្ទាំងទស្សនីយភាពជាមួយផលិតកម្ម យ៉ែម បូណ៌ផាន់ ភាពយន្ត ក្នុងឆ្នាំ ២០០៤។', '2021-08-19 14:35:08', 'មាយើង-គិន ធារ៉ា.jpg', 'មាយើង.pdf', 'គិន ធារ៉ា', 1, 1),
@@ -60,7 +59,8 @@ INSERT INTO `books` (`book_id`, `title`, `description`, `date`, `book_img`, `boo
 (23, 'ចំណេះដឹងប្លែកៗ', 'ចំណេះដឹងប្លែកៗ ជាសៀវភៅដែលនិយាយពីចំណេះដឹងទូទៅ។', '2021-08-19 15:04:30', 'ចំណេះដឹងប្លែកៗ.jpg', 'ចំណេះដឹងប្លែកៗ.pdf', 'N/A', 2, 1),
 (24, 'The Success Principle 2', 'The Success Principles™ will teach you how to increase your confidence, tackle daily challenges, live with passion and purpose, and realize all your ambitions.', '2021-08-19 15:05:41', 'the-success-princilple-Jack Canfield.jpg', 'the-success-principles-2-chapters.pdf', 'Jack Canfield', 3, 1),
 (25, 'សិល្បះលួងលោម', 'និយាយ​អំពី​រឿង​សិល្បះ​លួង​លោម ប្រាកដ​ជា​មិត្ត​យល់​ថា​ប្រហែល ជាមា​ន​រឿង​ចម្លែក​អ្វី ​ដូច​ជា​មាន​បញ្ហា​មន្ត​អាគម​គាថា​អ្វី​អាថ៌​កំបាំង​ច្រើន​មិន​​ងាយ​​ទៅ​​លួង​​លោម​​គេ​​បាន​ ពី​​ព្រោះ​​មនុស្ស​​យើង​ចេះ​ដឹង​មាន​ការ​រៀន​សូត្រ​ច្រើន​មិន​ងាយ​ទៅ​ លួង​លោម​គេ​បាន​ដោយ​ងាយ​ទេ… ។ល។ ការ​យល់​បែប​នេះ​វា​សមរម្យ​ហើយ ហើយ​រិត​តែ​សមរម្យ​ទៅ​ទៀត​ ចំពោះ​មនុស្ស​ល្ងង់​គេ​មិន​អាច​ទៅ​លួង​លោម​បាន​ដោយ​ងាយ​ដែរ​ ។', '2021-08-19 15:06:48', 'សិល្បះលួងលោម-ហ៊ុនគឹមស៊ា.jpg', 'សិល្បះលួងលោម.pdf', 'ហ៊ុន គឹមស៊ា', 3, 1),
-(30, 'អាចារ្យស្វា', 'អាចារ្យ​ស្វា ជាអ្នកបម្រើរបស់នាម៉ឺនម្នាក់ (ឧកញ៉ាវិជ្ជោសុខ) នៅរាជធានីឧដុង្គ។ ពេលបារាំងមកតាំងអាណាព្យាបាលលើប្រទេសខ្មែរនៅគ.ស ១៨៦៤ លោកអាចារ្យ ស្វា បានភៀសទៅកទ័ពវាយយកបានខេត្តទ្រាំង (កំពត - តាកែវ) ហើយលើកឆ្ពោះមកក្រុងភ្នំពេញទៀត។', '2021-08-20 12:26:02', 'អាចារ្យស្វា.jpg', 'AcharSva.pdf', 'N/A', 5, 1);
+(30, 'អាចារ្យស្វា', 'អាចារ្យ​ស្វា ជាអ្នកបម្រើរបស់នាម៉ឺនម្នាក់ (ឧកញ៉ាវិជ្ជោសុខ) នៅរាជធានីឧដុង្គ។ ពេលបារាំងមកតាំងអាណាព្យាបាលលើប្រទេសខ្មែរនៅគ.ស ១៨៦៤ លោកអាចារ្យ ស្វា បានភៀសទៅកទ័ពវាយយកបានខេត្តទ្រាំង (កំពត - តាកែវ) ហើយលើកឆ្ពោះមកក្រុងភ្នំពេញទៀត។', '2021-08-20 12:26:02', 'អាចារ្យស្វា.jpg', 'AcharSva.pdf', 'N/A', 5, 1),
+(35, 'បាក់ធ្មេញ', 'N/A', '2021-08-22 11:47:13', 'បាក់ធ្មេញ-សុទ្ធ ប៉ូលីន.jpg', 'bak-thmenh-archphkai.pdf', 'សុទ្ធ ប៉ូលីន', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -107,7 +107,7 @@ INSERT INTO `users` (`user_id`, `username`, `profile`, `email`, `password`, `rol
 (1, 'Admin', 'Admin.jpg', 'admin123@gmail.com', '$2y$10$nAC.8og/dsrUdgYFvA4xwOR9hZ.2a9fhjYqFh0g7TSTCCajTJ/DGC', 'Admin'),
 (9, 'Jame', 'jame123.jpg', 'jame@gmail.com', '$2y$10$US1L4B0zNrMtgQQTvNlk2eTrRGIaO2FtbpDQ5SYdVFSXCYLKLbH2m', 'User'),
 (12, 'Bella', 'Bella.jpg', 'bella@gmail.com', '$2y$10$69GBinzTSTQf8.6UOqO2e.JNq2u9H8spXKO/83eKJLkPlr797MAG2', 'User'),
-(15, 'Zenna', 'zenna123.jpg', 'zenna@gmail.com', '$2y$10$h9hhAHwohB0QKZydZ2beR.pdrLv/LHzew.4b2h4hLFOsU7XI/tdOy', 'User');
+(20, 'Koemsak', 'processed.jpeg', 'koemsak@gmail.com', '$2y$10$rFAnetHCl3WZJ.khgO9BXuutmEfOnkNgcufLjbcJROwpmkwc/elfS', 'User');
 
 --
 -- Indexes for dumped tables
@@ -141,7 +141,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `books`
 --
 ALTER TABLE `books`
-  MODIFY `book_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `book_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT for table `categories`
@@ -153,7 +153,7 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- Constraints for dumped tables

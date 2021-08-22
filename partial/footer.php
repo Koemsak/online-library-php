@@ -1,5 +1,5 @@
 
-    <footer class="bg-dark p-4 text-white text-center mt-5 mb-0">
+    <footer class="bg-dark p-4 text-white text-center mt-5 mb-auto">
         <h4 class="mb-4">More Information about me</h4>
         <div class="icons mb-4">
             <a href="#" class="fa fa-twitter border border-lighte text-light p-3 rounded-circle text-decoration-none"></a>

@@ -9,7 +9,7 @@
         $_SESSION['username'] = $_POST['username'];
         $isCreate = createUser($_POST);
         if($isCreate) {
-            header("Location: http://localhost/online-library/?page=home");
+            header("Location: http://localhost/online-library-php/?page=home");
         } else {
             $message_error = "This email already exist, or image file must be JPG JPEG PNG";
         }
