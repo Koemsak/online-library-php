@@ -11,11 +11,11 @@
         if($isCreate) {
             header("Location: http://localhost/online-library-php/?page=home");
         } else {
-            $message_error = "This email already exist, or image file must be JPG JPEG PNG";
+            $message_error = "This email or username already exist, or image file must be JPG JPEG PNG";
         }
     }
 ?>
-    <div class="container p-5">
+    <div class="container p-3">
         <div class="row">
             <div class="col-sm-6 m-auto">
                 <div class="logo text-center mb-3">

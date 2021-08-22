@@ -9,16 +9,7 @@
 ?>
 <div class="container border rounded p-4 mb-2 mt-2">
     <div class="row">
-        <!-- <div class="sort-by d-flex justify-content-between col-lg-2 col-md-4 col-sm-6 col-6">
-            <div class="d-flex flex-column">
-                <h4 class="text-white mr-4 d-flex align-item-center font-weight-light">SORT BY </h4>
-                <select class="form-control" name="sort">
-                    <option value="default">Select Default</option>
-                    <option value="old">Old Post</option>
-                    <option value="title">Title Post</option>
-                </select>
-            </div>
-        </div> -->
+
         <form action="" method="post" class="col-lg-6 col-md-8 col-sm-8 col-12">
             <h4 class="text-white mr-4 d-flex align-item-center font-weight-light">SEARCH </h4>
             <div class="d-flex justify-content-between">

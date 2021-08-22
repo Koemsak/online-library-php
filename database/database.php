@@ -165,7 +165,7 @@ function createUser($value) {
     $isValidEmail = true;
     $users = selectAllUser();
     foreach($users as $user) {
-        if($email == $user['email']) {
+        if($email === $user['email'] or $username === $user['username']) {
             $isValidEmail = false;
         }
     }
